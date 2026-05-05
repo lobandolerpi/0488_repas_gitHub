@@ -3,8 +3,8 @@ enum TipusBoto { beguda, opcio } // 2 dipus de botons.
 
 enum CoffeeKey {
   // Els botons, en concret, Primer el label, sebons el tipus
-  cafeCurt("Curt", TipusBoto.beguda),
-  cafeLlarg("Llarg", TipusBoto.beguda),
+  cafeCurt("Expresso", TipusBoto.beguda),
+  cafeLlarg("Americano", TipusBoto.beguda),
   neteja("Neteja", TipusBoto.opcio);
 
   // Els atributs dels membres de l'enum.
